@@ -1,6 +1,8 @@
 footer {
   background-color: #1c1d1f;
   padding: 24px 48px 0 24px;
+  position: relative;
+  z-index: 5000;
 }
 /* contain all elements in footer section except the logo */
 .footer_container {

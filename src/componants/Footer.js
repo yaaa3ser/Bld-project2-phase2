@@ -3,8 +3,8 @@ import React from "react";
 function Footer() {
     return (
         <footer>
-            <div class="footer_container">
-                <ul class="footer_list">
+            <div className="footer_container">
+                <ul className="footer_list">
                     <li>
                         <a href="/">Udemy Business</a>
                     </li>
@@ -55,11 +55,11 @@ function Footer() {
                         <a href="/">Accessibility statment</a>
                     </li>
                 </ul>
-                <div class="lang_bottom">
+                <div className="lang_bottom">
                     <button>Language</button>
                 </div>
             </div>
-            <div class="bottom_logo_container">
+            <div className="bottom_logo_container">
                 <a href="/">
                     <img
                         src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy-inverted.svg"

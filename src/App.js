@@ -40,16 +40,7 @@ function App() {
     .then(() => {
       setLoaded(true);
     });
-  // async function fetchData() {
-  //   let homepage = await fetch("");
-  //   homepage = await homepage.json();
-
-  //   let reviews = await fetch("http://localhost:3000/reviews");
-  //   reviews = await reviews.json();
-  //   localStorage.setItem("reviews", JSON.stringify(reviews));
-  //   setTimeout();
-  // }
-  // fetchData();
+  
   return (
     <BrowserRouter>
       <div className="App">
