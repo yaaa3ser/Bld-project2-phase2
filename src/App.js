@@ -46,7 +46,7 @@ function App() {
       <div className="App">
         <NavBar />
         <Routes>
-          <Route exact path="/" element={<Home loaded={loaded} />} />
+          <Route exact path="/Bld-project2-phase2" element={<Home loaded={loaded} />} />
           <Route
             exact
             path="/course/:courseID"
