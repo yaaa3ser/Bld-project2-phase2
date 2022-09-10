@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./componants/css/course.css";
 import "./componants/css/Nav-Bar-Styless.css";
 import "./componants/css/Header-Styless.css";
@@ -46,7 +46,7 @@ function App() {
       <div className="App">
         <NavBar />
         <Routes>
-          <Route exact path="/Bld-project2-phase2" element={<Home loaded={loaded} />} />
+          <Route exact path="/" element={<Home loaded={loaded} />} />
           <Route
             exact
             path="/course/:courseID"

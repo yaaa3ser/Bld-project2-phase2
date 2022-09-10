@@ -10,7 +10,7 @@ function NavBar() {
         <i className="fa fa-bars fa-2x" aria-hidden="true"></i>
       </div>
       <div>
-        <Link to="/Bld-project2-phase2">
+        <Link to="/">
           <img
             className="udemy-logo-size"
             src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg"
@@ -19,11 +19,11 @@ function NavBar() {
         </Link>
       </div>
       <div className="big-screen">
-        <Link to="/Bld-project2-phase2">Catigories</Link>
+        <Link to="/">Catigories</Link>
       </div>
       <div className="search-box big-screen">
         <div className="big-screen form">
-          <Link to="/Bld-project2-phase2">
+          <Link to="/">
             <button
               className="magnificent-glass-logo"
               id="search-button"
@@ -48,18 +48,18 @@ function NavBar() {
         />
       </div>
       <div className="big-screen">
-        <Link to="/Bld-project2-phase2">Udemy business</Link>
+        <Link to="/">Udemy business</Link>
       </div>
       <div className="big-screen">
-        <Link to="/Bld-project2-phase2">Teach on Udemy</Link>
+        <Link to="/">Teach on Udemy</Link>
       </div>
       <div>
         <div className="small-screen magificent-glass-small-screen">
-          <Link to="/Bld-project2-phase2">
+          <Link to="/">
             <i className="fa-solid fa-magnifying-glass fa-1x"></i>
           </Link>
         </div>
-        <Link to="/Bld-project2-phase2">
+        <Link to="/">
           <i className="fa-solid fa-cart-shopping fa-1x"></i>
         </Link>
       </div>

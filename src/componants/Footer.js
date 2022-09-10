@@ -60,7 +60,7 @@ function Footer() {
         </div>
       </div>
       <div className="bottom_logo_container">
-        <a href="/Bld-project2-phase2">
+        <a href="/">
           <img
             src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy-inverted.svg"
             alt="Udemy"
